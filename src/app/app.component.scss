@@ -1,0 +1,55 @@
+.sidenav-container {
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+
+  }
+  
+  .sidenav {
+    width: 200px;
+    width: 67px;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: -4px 3px 5px 6px #ccc;
+    border-radius: 15px;
+    background-color: white;
+  }
+  
+  .sidenav .mat-toolbar {
+    background: inherit;
+  }
+  
+  .mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+.container{
+    display: flex;
+    justify-content: flex-start;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .Search-box{
+    margin-top: 25px;
+}
+.str-button{
+    margin: 10px;
+    
+}
+.str-button:hover{
+    border-bottom: inset;
+    
+    border-bottom-color:rgb(193, 38, 108) ;
+
+}
+#str-btn{
+    margin: 10px;
+    
+}
+#str-btn:hover{
+    color: rgb(193, 38, 108);
+}
+.mat-toolbar-row, .mat-toolbar-single-row {
+    height: 71px;
+}

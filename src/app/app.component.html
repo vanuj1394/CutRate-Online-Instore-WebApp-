@@ -1,0 +1,68 @@
+<!-- <mat-sidenav-container class="sidenav-container">
+    
+    <mat-sidenav-content>
+      <mat-toolbar >
+        <div class="container">  
+          <div class="logo">
+            <img src="../assets/images/cutrate-high-resolution-logo-color-on-transparent-background.png" width="250" height="50">
+          </div>
+          <div class="right">
+            
+            <p>    Login/Signup</p>
+              
+          </div>
+        </div>
+      </mat-toolbar>
+      <div id="sideRoundCorner">
+        <router-outlet></router-outlet>
+      </div>
+    </mat-sidenav-content>
+    
+  </mat-sidenav-container>
+   -->
+ <div class="main-container" style="margin: 0 auto;">
+  <mat-toolbar style="  padding: 0 81px; background-color: white;
+  border-bottom: 1px solid; ">
+   <a  routerLink=""><img src="../assets/images/cutrate-low-resolution-logo-color-on-transparent-background (1).png" width="160" height="50"></a> 
+    <span class="example-spacer"></span>
+
+    <div class="Search-box">
+
+      <mat-form-field style="width: 500px;" appearance="fill">
+          <mat-label>Search</mat-label>
+          <input matInput [(ngModel)]="value" />
+          <mat-icon matPrefix>search</mat-icon>
+        </mat-form-field>
+     
+  </div>
+    <span class="example-spacer"></span>
+     <div><button mat-button class="login-btn"><mat-icon>login</mat-icon>Login</button></div> 
+   
+  </mat-toolbar>
+  <mat-toolbar-row style="padding: 0 108px;gap:35px;border-bottom: 1px solid;  ">
+    <span class="str-button"> 
+
+      <button id="str-btn" mat-button><mat-icon>
+        attach_money
+      </mat-icon>Double Cash Back Stores</button></span> 
+    <span class="str-button"> 
+        <button id="str-btn" mat-button><mat-icon>room</mat-icon>Stores</button></span>
+        <span class="str-button"> 
+          <button id="str-btn" mat-button><mat-icon>
+          category
+        </mat-icon>Category</button></span>
+        <span class="str-button"> 
+
+        <button id="str-btn" mat-button><mat-icon>
+          local_fire_department
+        </mat-icon>Hot Deals</button></span>
+        
+        <span class="str-button"> 
+          <button id="str-btn" mat-button><mat-icon>sell</mat-icon> Deals of The Day</button></span>
+          <span class="str-button"> 
+            <button id="str-btn" mat-button><mat-icon>help_outline</mat-icon>Help</button></span>
+     
+  </mat-toolbar-row>
+  <router-outlet></router-outlet>
+ </div>
+  

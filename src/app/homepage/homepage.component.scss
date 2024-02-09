@@ -1,0 +1,152 @@
+body {
+  background-image: linear-gradient(to right, #cb2d3e, #ef473a);
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+
+  .Search-box {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .sliding-card {
+    height: 400px;
+  }
+
+  #div_top_hypers {
+    background-color: #eeeeee;
+    display: inline;
+  }
+
+  #ul_top_hypers li {
+    display: inline;
+    gap: 30px;
+  }
+
+  .secondary-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    padding: 40px;
+    border-bottom: 1px solid;
+
+    .wrapper-second:hover {
+
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+
+    }
+
+    .wrapper-first:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+
+    }
+
+    .wrapper-third:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+
+    }
+
+    .wrapper-fourth:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+
+    }
+
+    .wrapper-fifth:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+
+    }
+
+    .wrapper-sixth:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+
+    }
+  }
+
+}
+
+p {
+  margin-left: 11px
+}
+
+.title-filter {
+  margin: 19px;
+  border-bottom: inset;
+
+  .filter-item {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 3px;
+  }
+}
+
+.mat-card-hover:hover {
+  box-shadow: 0 5px 15px rgba(198, 194, 194, 0.8);
+
+}
+
+a {
+  color: black;
+}
+
+/* You can add global styles to this file, and also import other style files */
+body {
+  display: block;
+  max-width: 620px;
+  margin: 0 auto;
+  font-family: monospace;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px
+}
+
+h2 {
+  font-size: 30px
+}
+
+h3 {
+  font-size: 20px
+}
+
+.container {
+  position: relative
+}
+
+.demo {
+  margin-bottom: 60px;
+  width: calc(98vw - 1vw)
+}
+
+.carousel-html-content {
+  width: 98vw !important;
+
+  .carousel-cell {
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 15px;
+  }
+}
+
+.carousel-cell {
+  border-radius: 15px
+}
+
+.offer-details {
+  display: flex;
+  font-family: Rakuten Sans UI, system-ui, Arial, Roboto, sans-serif;
+  gap: 7px;
+  color: #ad4b6d;
+  font-weight: 600;
+}

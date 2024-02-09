@@ -1,0 +1,177 @@
+.offer-heading {
+    margin-top: 8px;
+    width: calc(100% - 272px);
+    margin-left: 24px;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.logo-profile {
+    width: 247px;
+    height: 190px;
+    line-height: 190px;
+    position: relative;
+    top: 12px;
+    display: inline-block;
+}
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+}
+
+
+.first-Sub-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+    box-sizing: border-box;
+    max-width: 1170px;
+    height: 150px;
+    display: flex;
+}
+
+.offer-row-heading {
+    position: absolute;
+    background-color: #ffffff;
+    color: #a64444;
+    width: 71px;
+    margin-top: 142px;
+}
+
+.offer-row {
+    border: 1px solid;
+    color: #a64444;
+    margin-top: 55px;
+}
+.container{
+    background-image: url(https://static.ebates.com/img/store/5487/adidas_banner_1168x200.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    color: #070606;
+    padding: 12px 0;
+    max-width: 100%;
+    height: 24vh;
+}
+.container2{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+    box-sizing: border-box;
+    max-width: 1140px;
+
+}
+
+@media screen and (min-width: 64em)
+{
+
+.rightcont{
+ 
+    display: inline-block;
+    margin-left: 24px;
+    width: calc(100% - 270px);
+    float: right;
+
+}
+.sort{
+    margin: 16px 0 16px;
+    display: flex;
+
+}
+.sort-button{
+    border-radius: 24px;
+    min-width: auto;
+    
+}
+.sort-button-active{
+    background-color: #173d6d;
+    color: white;
+}
+.sort-btn-div{
+    margin-left: 4px;
+}
+strong{
+    align-self: center;
+}
+.leftcont{
+    display: inline-block;
+    width: 240px;
+}
+.brand-info{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: relative;
+    width: auto;
+    background: 0 0;
+    padding-top: 0;
+    right: 0;
+    z-index: 2;
+    margin-top: 96px;
+}
+.offer-running{
+    align-self: center;
+    font-family: Rakuten Sans UI Semibold;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgb(20, 19, 19);
+}
+.offer-number{
+    align-self: center;
+    font-family: Rakuten Sans UI Semibold;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 6px;
+    line-height: 28px;
+    color: #1f1d1d;
+}
+
+.mdc-card__actions.mdc-card__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 52px;
+    padding: 8px;
+}
+.matcard-action-btn{
+    color: rgb(178 58 60);
+    font-family: Rakuten Sans UI Semibold;
+    font-weight: normal;
+    font-style: normal;
+    box-shadow: 0 4px 8px 0 rgba(10,22,70,0.15);
+}
+.leftcont-card{
+
+    box-shadow: 0 4px 8px 0 rgba(10,22,70,0.15);
+}
+.about-brand{
+    font-family: Stag Medium Web;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    color: black;
+    line-height: 36px;
+    padding: 18px 30px 6px 30px;
+    border-bottom: 1px solid #ddd;
+}
+.expandable-content{
+    padding: 20px 30px;
+
+}
+.isActive{
+    color: #c2336c;
+    background-color: #fff !important;
+    //color: #fff;
+}
+// .third-cont.tabs.str-button:hover,:focus,.checked
+// {
+// 		background-color: #c2336c;
+//     color: #fff;
+// 	}
+
+}

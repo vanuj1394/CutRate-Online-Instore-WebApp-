@@ -1,0 +1,57 @@
+#containerDiv {
+    width: 1000px;
+
+}
+.boxDiv {
+    width: 248px;
+}
+.upperRound {
+    height: 20px;
+}
+
+.lowerRound {
+    height: 20px;
+}
+
+.boxContent,.boxTagLine {
+    border-left: 2px solid #B5B5B5;
+    border-right: 2px solid #B5B5B5;
+    padding: 10px;
+    background-color:#F8F8F8;
+
+}
+
+.boxTagLine {
+    color:#0066FF;
+}
+
+#box1 {
+    float: right;
+    border-radius: 25px;
+    padding: 8px;
+    width: 633px;
+    height: auto;
+    margin-top: 7px;
+    margin-right: -366px;
+
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    border-radius:4%;
+    background-color:white;
+    .collapseIcon{
+        float: left;
+        margin-top: 300px;
+        cursor: pointer;
+    }
+}
+#map-canvas {
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    bottom: -200px; 
+    left: 0; 
+    right: 0; 
+    z-index: 0;
+  }
+  

@@ -1,0 +1,219 @@
+<div class="Container">
+
+  <div class="secondary-header">
+
+    <div class="demo">
+      <carousel [width]="1200" [height]="150" class="carousel-html-content">
+        <div class="carousel-cell" *ngFor="let off of offer" style="display: flex;flex-direction: column;width: 200px;margin: 15px;">
+          <div style="height: 69%;">
+            <mat-card style="height: 98%;width: 114%;">
+              <mat-card-content style="height: 103%;"><a style="cursor: pointer;">
+                  <a><img src={{off.img}} width="20"
+                      height="30" /></a>
+                </a></mat-card-content>
+            </mat-card>
+          </div>
+          <div>
+            <a href="#"><span class="offer-details"><mat-icon>add_circle</mat-icon>{{off.offer_details}}</span></a>
+          </div>
+        </div>
+      </carousel>
+    </div>
+    <!-- <div class="wrapper-second">
+      <div>
+        <a style="cursor: pointer;">
+          <a><img src="https://www.freepnglogos.com/uploads/adidas-logo-png-hd-17.png" width="90" /></a>
+        </a>
+      </div>
+    </div>
+    <div class="wrapper-first" style="align-items: center;">
+      <div>
+        <a style="cursor: pointer;">
+          <img src="https://www.freepnglogos.com/uploads/puma-red-logo-png-11.png" width="100" />
+        </a>
+
+      </div>
+    </div>
+    <div class="wrapper-third">
+      <a style="cursor: pointer;">
+        <img src="https://www.freepnglogos.com/uploads/reebok-logo-png/crossfit-logo-reebok-images-galleries-1.png"
+          width="70" />
+      </a>
+    </div>
+    <div class="wrapper-fourth">
+      <a style="cursor: pointer;">
+        <img src="https://www.freepnglogos.com/uploads/nike-logo/nike-logo-png-transparent-1.png" width="120" />
+      </a>
+    </div>
+    <div class="wrapper-fifth">
+      <a style="cursor: pointer;">
+        <img src="http://pngimagesfree.com/LOGO/A/Allen-Solly/Allen-Solly-Logo-PNG-HD.png" width="120" />
+      </a>
+    </div>
+    <div class="wrapper-sixth">
+      <a style="cursor: pointer;">
+        <img src="https://www.pngmart.com/files/22/HM-Logo-PNG.png" height="80" width="100" />
+      </a>
+    </div> -->
+  </div>
+  <div class="sliding-card">
+    <mdb-carousel style="height:400px" [controls]="true" [indicators]="true" [animation]="'fade'">
+      <mdb-carousel-item style="height:400px">
+        <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </mdb-carousel-item>
+      <mdb-carousel-item style="height:400px">
+        <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </mdb-carousel-item>
+      <mdb-carousel-item style="height:400px">
+        <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).webp" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </mdb-carousel-item>
+    </mdb-carousel>
+  </div>
+  <div class="title-filter">
+    <div class="store-count" style="float:left;">
+      <h3>20 Stores</h3>
+
+    </div>
+    <div class="filter" style="float: right; gap: 300px;">
+      <div class="filter-item">
+        <button mat-button>Jorden</button>
+
+        <button mat-button>Sneakers</button>
+
+        <button mat-button>Appreals & Clothing</button>
+
+        <button mat-button>Dilivery time</button>
+
+        <button mat-button [matMenuTriggerFor]="menu"> <mat-icon>tune</mat-icon>Filter </button>
+
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>Item 1</button>
+          <button mat-menu-item>Item 2</button>
+        </mat-menu>
+      </div>
+    </div>
+  </div>
+  <div class="store-grid">
+    <div class="grid-item">
+      <mat-grid-list cols="4" rowHeight="1:1">
+        <mat-grid-tile>
+          <mat-card class="mat-card-hover">
+            <a [routerLink]="'/offer-details'">
+              <div class="logo" style="margin: 20px;">
+                <a><img src="https://www.freepnglogos.com/uploads/adidas-logo-png-hd-17.png" width="250"
+                    height="200" /></a>
+              </div>
+              <div class="grid-content" style="margin: 20px;">
+                <mat-card-title>Adidas Orignal</mat-card-title>
+                <mat-card-subtitle style="font-size: 13px;">D-23 Center Point, Aligarh 202001</mat-card-subtitle>
+
+              </div>
+              <div style="display: flex; flex-direction: row; gap: 40px;margin: 17px;">
+                <mat-card-footer>
+                  <div style="display: flex;">
+                    <mat-icon>star_rate</mat-icon>4
+                  </div>
+                </mat-card-footer>
+                <mat-card-footer>30 MINS
+                </mat-card-footer>
+                <mat-card-footer> Rs 499 For One</mat-card-footer>
+              </div>
+            </a>
+
+          </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-card class="mat-card-hover">
+            <a href="#">
+              <div class="logo" style="margin: 20px;">
+                <a><img src="https://www.freepnglogos.com/uploads/puma-red-logo-png-11.png" width="250"
+                    height="200" /></a>
+              </div>
+              <div class="grid-content" style="margin: 20px;">
+                <mat-card-title>PUMA</mat-card-title>
+                <mat-card-subtitle style="font-size: 13px;">D-23 Center Point, Aligarh 202001</mat-card-subtitle>
+
+              </div>
+              <div style="display: flex; flex-direction: row; gap: 40px;margin: 17px;">
+                <mat-card-footer>
+                  <div style="display: flex;">
+                    <mat-icon>star_rate</mat-icon>4
+                  </div>
+                </mat-card-footer>
+                <mat-card-footer>30 MINS
+                </mat-card-footer>
+                <mat-card-footer> Rs 499 For One</mat-card-footer>
+              </div>
+            </a>
+          </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-card class="mat-card-hover">
+            <a href="#">
+              <div class="logo" style="margin: 20px;">
+                <a><img
+                    src="https://www.freepnglogos.com/uploads/reebok-logo-png/crossfit-logo-reebok-images-galleries-1.png"
+                    width="250" height="200" /></a>
+              </div>
+              <div class="grid-content" style="margin: 20px;">
+                <mat-card-title>Reebok</mat-card-title>
+                <mat-card-subtitle style="font-size: 13px;">D-23 Center Point, Aligarh 202001</mat-card-subtitle>
+
+              </div>
+              <div style="display: flex; flex-direction: row; gap: 40px;margin: 17px;">
+                <mat-card-footer>
+                  <div style="display: flex;">
+                    <mat-icon>star_rate</mat-icon>4
+                  </div>
+                </mat-card-footer>
+                <mat-card-footer>30 MINS
+                </mat-card-footer>
+                <mat-card-footer> Rs 499 For One</mat-card-footer>
+              </div>
+            </a>
+
+          </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-card class="mat-card-hover">
+            <a href="#">
+              <div class="logo" style="margin: 20px;">
+                <a><img src="https://www.pngmart.com/files/22/HM-Logo-PNG.png" width="250" height="200" /></a>
+              </div>
+              <div class="grid-content" style="margin: 20px;">
+                <mat-card-title>H & M</mat-card-title>
+                <mat-card-subtitle style="font-size: 13px;">D-23 Center Point, Aligarh 202001</mat-card-subtitle>
+
+              </div>
+              <div style="display: flex; flex-direction: row; gap: 40px;margin: 17px;">
+                <mat-card-footer>
+                  <div style="display: flex;">
+                    <mat-icon>star_rate</mat-icon>4
+                  </div>
+                </mat-card-footer>
+                <mat-card-footer>30 MINS
+                </mat-card-footer>
+                <mat-card-footer> Rs 499 For One</mat-card-footer>
+              </div>
+            </a>
+
+          </mat-card>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </div>
+  </div>
+
+
+</div>
