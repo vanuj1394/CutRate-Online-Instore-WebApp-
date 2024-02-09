@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HomepageComponent {
   value = '';
-  val='';
   offer = [{
     "img":"https://www.freepnglogos.com/uploads/puma-red-logo-png-11.png",
     "offer_details":"FLAT 50% OFF"
